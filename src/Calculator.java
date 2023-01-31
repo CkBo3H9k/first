@@ -9,7 +9,7 @@ public class Calculator {
         char operation;
         double result = 0;
         do {
-            if (calcOper == 'c') {
+            if (calcOper == 'c') { // проверка переменной calcOper
                 System.out.println("Введите первое число: ");
                 num1 = scanner.nextInt();
                 System.out.println("Выберите операцию: +, -, *, / ");
