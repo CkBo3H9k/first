@@ -29,10 +29,10 @@ public class Calculator {
     }
     public static double calc(double num1, char operation, double num2) {
         return switch (operation) {
-            case '+' -> num1 + num2;
-            case '-' -> num1 - num2;
-            case '*' -> num1 * num2;
-            case '/' -> num1 / num2;
+            case '+' -> num1 + num2; //Операция сложения
+            case '-' -> num1 - num2; //Операция вычитания
+            case '*' -> num1 * num2; //Операция умножения
+            case '/' -> num1 / num2; //Операция деления
             default -> {
                 System.out.println("Введен некорректный оператор");
                 yield 0;
